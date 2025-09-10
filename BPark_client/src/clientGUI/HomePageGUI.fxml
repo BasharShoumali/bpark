@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientGUI.HomePageGUIController">
+   <children>
+      <Button fx:id="updateDetailsBtn" layoutX="105.0" layoutY="100.0" mnemonicParsing="false" onAction="#UpdateDetailsBtn" prefHeight="162.0" prefWidth="100.0" style="-fx-background-color: #27ae60;" text="Update Details" textAlignment="CENTER" textFill="#103316" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="395.0" AnchorPane.topAnchor="100.0" />
+      <Button fx:id="displayDetailsBtn" layoutX="392.6" layoutY="100.0" mnemonicParsing="false" onAction="#DisplayDetailsBtn" prefHeight="162.0" prefWidth="100.0" style="-fx-background-color: #2980b9;" text="View Details" textAlignment="CENTER" AnchorPane.leftAnchor="392.6" AnchorPane.rightAnchor="107.39999999999998" AnchorPane.topAnchor="100.0" />
+      <Button fx:id="exitBtn" layoutX="273.0" layoutY="316.0" mnemonicParsing="false" onAction="#ExitBtn" style="-fx-background-color: #DC143C;" text="Exit" />
+      <Label fx:id="lblServerMessage" layoutX="515.0" layoutY="355.0" />
+   </children>
+</AnchorPane>
